@@ -41,3 +41,21 @@ nav ul{
     justify-content: center;
     gap: 30px;
 }
+
+main{
+    flex: 1;
+}
+/* Seccion Hero (Inicio) */
+.hero{
+    position: relative;
+    height: 90vh; /* Un poco menos de pantalla copleta para dejar ver*/
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.hero video{
+    position: absolute;
+    
+}
